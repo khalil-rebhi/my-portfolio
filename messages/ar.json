@@ -1,6 +1,8 @@
 {
-    "HomePage": {
-      "title": "sbe7khir world!",
-      "about": "Aller to the about page"
-    }
+  "Navbar": {
+    "about": "من أنا",
+    "education": "التعليم",
+    "projects": "المشاريع",
+    "contact": "اتصال"
   }
+}

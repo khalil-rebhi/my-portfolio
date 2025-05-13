@@ -1,6 +1,8 @@
 {
-    "HomePage": {
-      "title": "Bonjour world!",
-      "about": "Aller to the about page"
-    }
+  "Navbar": {
+    "about": "À propos",
+    "education": "Formations",
+    "projects": "Projets",
+    "contact": "Contact"
   }
+}
