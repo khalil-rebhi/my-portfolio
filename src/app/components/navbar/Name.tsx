@@ -6,10 +6,10 @@ export default function Name({ locale }: Readonly<{ locale: string }>) {
   return (
     <Link
       href={`/${locale}`}
-      className="flex items-center gap-2 text-xl font-bold transition-opacity duration-300 whitespace-nowrap text-primary hover:text-primary-hover"
+      className="hidden md:flex items-center gap-2 text-xl font-bold transition-opacity duration-300 whitespace-nowrap text-primary hover:text-primary-hover"
     >
       <Image
-        src="/profile.jpg" // Make sure the image is in the public folder
+        src="/profile.jpg"
         alt="Khalil Rebhi"
         width={32}
         height={32}

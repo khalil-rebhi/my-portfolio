@@ -1,8 +1,13 @@
 {
   "Navbar": {
     "about": "À propos",
+    "skills": "Compétences",
     "education": "Formations",
     "projects": "Projets",
     "contact": "Contact"
+  },
+  "About": {
+    "title": "DÉVELOPPEUR FULL STACK",
+    "description": "Ingénieur en informatique spécialisé en développement full stack, je conçois des applications web modernes et performantes en combinant React, Angular, Next.js, Spring Boot et Node.js.\nPassionné par la technologie, je transforme les idées en solutions robustes, accessibles et évolutives."
   }
 }

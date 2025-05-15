@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Formation from "../components/Formation";
+import Skills from "../components/Skills";
 
 export default async function LocaleLayout({
   children,
@@ -24,6 +25,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider locale={locale}>
       <Navbar />
       <About />
+      <Skills />
       <Formation />
       <Projects />
       <Contact />

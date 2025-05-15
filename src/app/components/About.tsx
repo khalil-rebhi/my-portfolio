@@ -1,7 +1,37 @@
-import React from 'react'
+'use client';
+
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import AnimatedTitle from './about/AnimatedTitle';
 
 export default function About() {
+
+  const t = useTranslations('About');
+
   return (
-    <div className='h-52 bg-amber-50' id='about'>About</div>
-  )
+    <section id="about" className="py-20 px-6 md:px-12">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
+
+        <div className="relative w-60 h-60 rounded-full p-1 bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 animate-border-spin">
+          <div className="rounded-full overflow-hidden w-full h-full">
+            <Image
+              src="/profile.jpg"
+              alt="Khalil Rebhi"
+              width={240}
+              height={240}
+              className="object-cover w-full h-full"
+            />
+          </div>
+        </div>
+
+        <div className="text-center md:text-left flex-1">
+          <AnimatedTitle />
+          <p className="text-gray-700 text-lg leading-relaxed max-w-xl mx-auto md:mx-0 cursor-none">
+            {t('description')}
+          </p>
+        </div>
+
+      </div>
+    </section>
+  );
 }

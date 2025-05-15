@@ -25,8 +25,9 @@ export default function LanguageSwitcher({
 
   const handleLocaleChange = (newLocale: string) => {
     const newPath = `/${newLocale}${pathname.replace(/^\/[a-z]{2}/, "")}`;
-    router.push(newPath);
+    router.push(newPath, { scroll: true });
     setOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (

@@ -28,8 +28,8 @@ export default async function RootLayout({
   const dir = locale === "ar" ? "rtl" : "ltr";
   
   return (
-    <html lang={locale} dir={dir}>
-      <body className="antialiased">{children}</body>
+    <html lang={locale} dir={dir} className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="antialiased font-sans">{children}</body>
     </html>
   );
 }
