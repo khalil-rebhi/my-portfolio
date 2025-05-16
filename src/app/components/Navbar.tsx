@@ -34,7 +34,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="w-full sticky top-0 left-0 px-6 py-4 border-b border-gray-200 bg-black text-black transition-all duration-300 z-50">
+    <nav className={`w-full sticky top-0 left-0 px-6 py-4 border-b border-gray-200 ${scrolled ? 'bg-black' : 'bg-transparent'} transition-all duration-300 z-50`}>
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {scrolled && (
             <Name locale={locale} />
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden mt-3 flex flex-col items-center gap-3 text-sm font-medium bg-white px-4 py-2 rounded shadow">
+        <div className="md:hidden mt-3 flex flex-col items-center gap-3 text-sm font-medium bg-black px-4 py-2 rounded">
           {navLinks(true)}
           <LanguageSwitcher locale={locale} locales={locales} />
         </div>
