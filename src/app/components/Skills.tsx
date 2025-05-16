@@ -11,7 +11,7 @@ export default function Skills() {
   const t = useTranslations("Navbar");
   return (
     <section id="skills" className="py-16 px-6 text-center">
-      <h2 className="text-3xl font-bold mb-10 animate-rgb-text">
+      <h2 className="text-3xl font-bold mb-10 text-tertiary-glow">
         🚀 {t("skills")}
       </h2>
       <Swiper
