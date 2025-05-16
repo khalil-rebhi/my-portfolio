@@ -8,7 +8,9 @@
   },
   "About": {
     "title": "DÉVELOPPEUR FULL STACK",
-    "description": "Ingénieur en informatique spécialisé en développement full stack, je conçois des applications web modernes et performantes en combinant React, Angular, Next.js, Spring Boot et Node.js.\nPassionné par la technologie, je transforme les idées en solutions robustes, accessibles et évolutives."
+    "description": "Ingénieur en informatique spécialisé en développement full stack, je conçois des applications web modernes et performantes en combinant React, Angular, Next.js, Spring Boot et Node.js.\nPassionné par la technologie, je transforme les idées en solutions robustes, accessibles et évolutives.",
+    "hireMe": "Engagez-moi",
+    "contact": "Contact"  
   },
   "Skills": {
     "title": "Skills",

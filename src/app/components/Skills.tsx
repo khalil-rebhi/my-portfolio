@@ -30,7 +30,7 @@ export default function Skills() {
         {t("subtitle")}
       </motion.p>
       <Swiper
-        slidesPerView={6}
+        slidesPerView={3}
         spaceBetween={30}
         className="mySwiper"
         loop={true}
@@ -38,6 +38,12 @@ export default function Skills() {
           delay: 1000,
           pauseOnMouseEnter: true,
           waitForTransition: true,
+        }}
+        breakpoints={{
+          1000 :{
+            slidesPerView: 6,
+            spaceBetween: 30
+          }
         }}
         navigation={true}
         modules={[Autoplay, Navigation]}

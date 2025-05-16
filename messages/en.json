@@ -8,7 +8,9 @@
   },
   "About": {
     "title": "FULL STACK DEVELOPER",
-    "description": "Full stack software engineer building modern, high-performance web applications with React, Angular, Next.js, Spring Boot, and Node.js. Passionate about tech, I turn ideas into robust, accessible, and scalable solutions."
+    "description": "Full stack software engineer building modern, high-performance web applications with React, Angular, Next.js, Spring Boot, and Node.js. Passionate about tech, I turn ideas into robust, accessible, and scalable solutions.",
+    "hireMe": "Hire Me",
+    "contact": "Contact"
   },
   "Skills": {
     "title": "Skills",

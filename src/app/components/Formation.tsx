@@ -38,7 +38,7 @@ export default function Formation() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#fff", color: formation.color, borderTop: `7px solid ${formation.color}` }}
-            contentArrowStyle={{ borderRight: "7px solid #000" }}
+            contentArrowStyle={{ borderRight: `10px solid ${formation.color}` }}
             date={formation.duration}
             iconStyle={{ background: formation.color, color: "#fff" }}
             icon={formation.icon}
