@@ -38,6 +38,9 @@ export default function Contact() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
             className="bg-white  shadow-md rounded-xl px-6 py-4 flex items-center gap-4 transition-colors hover:bg-primary-glow hover:text-tertiary w-full md:w-auto"
           >
             <span className="text-xl" style={{ color: item.iconColor }}>{item.icon}</span>

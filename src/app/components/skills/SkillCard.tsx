@@ -17,10 +17,10 @@ export default function SkillCard({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div
+    <button
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative w-32 h-32 md:w-36 md:h-36 hover:scale-125 bg-white shadow-md rounded-xl flex flex-col items-center justify-center p-3 mb-4 overflow-hidden group transition-all cursor-pointer"
+      className="relative w-32 h-32 md:w-36 md:h-36 hover:scale-125 bg-white shadow-md rounded-4xl flex flex-col items-center justify-center p-3 mt-6 mb-6 overflow-hidden group transition-all cursor-pointer"
     >
       <Image
         src={logo}
@@ -33,6 +33,6 @@ export default function SkillCard({
           <div className="font-semibold">{name}</div>
           <div className="opacity-80 text-[10px]">{category}</div>
         </div>
-    </div>
+    </button>
   );
 }
