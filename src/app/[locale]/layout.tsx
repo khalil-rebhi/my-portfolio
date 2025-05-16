@@ -8,6 +8,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Formation from "../components/Formation";
 import Skills from "../components/Skills";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 export default async function LocaleLayout({
   children,
@@ -30,6 +31,7 @@ export default async function LocaleLayout({
       <Projects />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
       {children}
     </NextIntlClientProvider>
   );
