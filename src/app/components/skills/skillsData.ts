@@ -19,6 +19,6 @@ export const skills = [
     { name: 'MySQL', category: 'Database', logo: '/skills/Mysql.png' },
     { name: 'MongoDB', category: 'Database', logo: '/skills/Mongodb.png' },
     { name: 'GitHub', category: 'Tools', logo: '/skills/GitHub.png' },
-    { name: 'Postman', category: 'Frontend', logo: '/skills/Postman.png' },
-    { name: 'Linux', category: 'Frontend', logo: '/skills/Linux.png' },
+    { name: 'Postman', category: 'Tools', logo: '/skills/Postman.png' },
+    { name: 'Linux', category: 'Tools', logo: '/skills/Linux.png' },
 ];
