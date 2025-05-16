@@ -12,7 +12,7 @@ export default function About() {
     <section id="about" className="py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
 
-        <div className="relative w-60 h-60 rounded-full p-1 bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 animate-border-spin">
+        <div className="relative w-60 h-60 rounded-full p-2 border-4 border-tertiary-glow">
           <div className="rounded-full overflow-hidden w-full h-full">
             <Image
               src="/profile.jpg"
