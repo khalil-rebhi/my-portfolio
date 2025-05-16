@@ -34,7 +34,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="w-full sticky top-0 left-0 px-6 py-4 border-b border-gray-200 bg-tertiary-background text-black transition-all duration-300 z-50">
+    <nav className="w-full sticky top-0 left-0 px-6 py-4 border-b border-gray-200 bg-black text-black transition-all duration-300 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {scrolled && (
             <Name locale={locale} />

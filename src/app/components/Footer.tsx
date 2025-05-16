@@ -21,7 +21,7 @@ export default function Footer() {
     <footer className="w-full mt-20 border-t border-gray-300  text-black  transition-colors">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center gap-6">
         
-        <Link href={`/${locale}`} className="text-xl font-bold tracking-wide hover:text-primary transition-all">
+        <Link href={`/${locale}`} className="text-xl font-signature font-bold tracking-wide hover:text-primary transition-all">
           Khalil Rebhi
         </Link>
 

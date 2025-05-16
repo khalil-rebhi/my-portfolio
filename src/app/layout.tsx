@@ -1,16 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Great_Vibes, Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import { cookies } from "next/headers";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['700'],
+  variable: '--font-heading',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-body',
+});
+
+const greatVibes = Great_Vibes({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-signature',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -28,7 +37,7 @@ export default async function RootLayout({
   const dir = locale === "ar" ? "rtl" : "ltr";
   
   return (
-    <html lang={locale} dir={dir} className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang={locale} dir={dir} className={`${montserrat.variable} ${inter.variable} ${greatVibes.variable} bg-animated-gradient`}>
       <body className="antialiased font-sans">{children}</body>
     </html>
   );

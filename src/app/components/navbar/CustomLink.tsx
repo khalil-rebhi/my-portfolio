@@ -24,7 +24,7 @@ export default function CustomLink({
         if (onClick) onClick(e);
         scroll(href);
       }}
-      className="font-semibold mr-0.5 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-tertiary-hover text-primary hover:text-primary-hover hover:font-semibold after:transition-all after:duration-300 hover:after:w-full focus:after:w-full cursor-pointer"
+      className="font-semibold font-sans mr-0.5 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-secondary-hover text-primary hover:text-primary-hover hover:font-semibold after:transition-all after:duration-300 hover:after:w-full focus:after:w-full cursor-pointer"
     >
       {children}
     </button>

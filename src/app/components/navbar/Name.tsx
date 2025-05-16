@@ -6,7 +6,7 @@ export default function Name({ locale }: Readonly<{ locale: string }>) {
   return (
     <Link
       href={`/${locale}`}
-      className="hidden md:flex items-center gap-2 text-xl font-bold transition-opacity duration-300 whitespace-nowrap text-primary hover:text-primary-hover"
+      className="hidden md:flex items-center gap-2 text-xl font-bold transition-opacity duration-300 whitespace-nowrap text-secondary hover:text-secondary-hover"
     >
       <Image
         src="/profile.jpg"
@@ -15,7 +15,7 @@ export default function Name({ locale }: Readonly<{ locale: string }>) {
         height={32}
         className="rounded-full border border-gray-300"
       />
-      <span className="rgb-text">Khalil Rebhi</span>
+      <span className="rgb-text font-signature">Khalil Rebhi</span>
     </Link>
   );
 }

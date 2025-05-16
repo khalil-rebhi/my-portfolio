@@ -34,7 +34,7 @@ export default function LanguageSwitcher({
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-sm cursor-pointer"
+        className="flex items-center gap-2 px-3 py-1 bg-primary hover:bg-secondary-hover rounded text-sm cursor-pointer"
       >
         <Flag
           code={localeMeta[locale].countryCode}
@@ -52,8 +52,8 @@ export default function LanguageSwitcher({
             <button
               key={loc}
               onClick={() => handleLocaleChange(loc)}
-              className={`flex items-center gap-2 w-full px-3 py-2 text-sm text-left rounded-xl hover:bg-primary-hover cursor-pointer ${
-                loc === locale ? "bg-blue-100" : ""
+              className={`flex items-center gap-2 w-full px-3 py-2 text-sm text-left rounded-xl hover:bg-secondary-hover cursor-pointer ${
+                loc === locale ? "bg-secondary-glow" : ""
               }`}
             >
               <Flag

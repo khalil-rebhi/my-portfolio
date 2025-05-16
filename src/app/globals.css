@@ -1,54 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f0f9ff  ;
-  --foreground: #171717;
+  --background: #F3F2F0;
+  --foreground: #0A1A2F;
+  --diamond: linear-gradient(
+    135deg,
+    rgba(230, 230, 250, 0.9) 0%,
+    rgba(255, 255, 255, 0.95) 50%,
+    rgba(200, 200, 255, 0.8) 100% 
+  );
+  --accent: #C0C0C0;    
+  --accent-hover: #A7A7A7; 
+  --accent-glow: rgba(192, 192, 192, 0.4);
+  --secondary: #D4AF37;    
+  --secondary-hover: #B7950B;
+  --secondary-glow: rgba(212, 175, 55, 0.4);
+  --tertiary: #50C878;
+  --tertiary-hover: #3AAE60;
+  --tertiary-glow: #3aae6169;
+  --muted: #E5E3DF;
 }
 
 @theme{
-  --font-sans : 'Geist Sans', sans-serif;
-  --font-geist-mono: 'Geist Mono', monospace;
-  --color-primary: #2563ed;
-  --color-primary-hover: #1d4ed8;
-  --color-secondary: #6366f1;
-  --color-secondary-hover: #4f46e5;
-  --color-tertiary: #06b6d4;
-  --color-tertiary-hover: #0891b2;
-  --color-tertiary-background: rgba(6, 182, 212, 0.2);
+
+  --font-heading: var(--font-montserrat);
+  --font-sans: var(--font-inter);
+  --font-signature: var(--font-signature);
+  
+  --color-primary: var(--accent);
+  --color-primary-hover: var(--accent-hover);
+  --color-primary-glow : var(--accent-glow);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-glow: var(--secondary-glow);
+  --color-tertiary: var(--tertiary); 
+  --color-tertiary-hover: var(--tertiary-hover);
+  --color-tertiary-glow: var(--tertiary-glow);
+  --color-tertiary-background: rgba(80, 200, 120, 0.2);
 }
 
 body {
-  background: var(--background);
+  background: var(--diamond);
   color: var(--foreground);
-}
-
-@keyframes border-spin {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.animate-border-spin {
-  background-size: 300% 300%;
-  animation: border-spin 4s linear infinite;
-}
-
-.rgb-animated {
-  background: linear-gradient(270deg, #ff0057, #969415, #00e0ff, #ad00ff, #ff0057);
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: rgbTextBg 5s ease infinite;
-}
-
-@keyframes rgbTextBg {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
