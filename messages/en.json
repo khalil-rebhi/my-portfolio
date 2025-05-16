@@ -9,5 +9,27 @@
   "About": {
     "title": "FULL STACK DEVELOPER",
     "description": "Full stack software engineer building modern, high-performance web applications with React, Angular, Next.js, Spring Boot, and Node.js. Passionate about tech, I turn ideas into robust, accessible, and scalable solutions."
+  },
+  "Formation": {
+    "title": "Education and Professional Experience",
+    "bachelorDegree": "Bachelor’s Degree in Computer Science",
+    "engineeringInternship": "Engineering Internship",
+    "finalInternship": "Final Internship",
+    "immersionInternship": "Immersion Internship",
+    "highSchoolDiploma": "High School Diploma",
+    "engineerDegree": "Engineering Degree",
+    "fst": "Faculty of Sciences of Tunis",
+    "sntp": "National Petroleum Distribution Company (SNDP) - AGIL",
+    "ministry": "Ministry of Planning and Economy",
+    "zitounaBank": "Banque Zitouna",
+    "esprit": "ESPRIT - Private Higher School of Engineering and Technology",
+    "highSchool": "High School of Khmaies El Hajri - Jendouba",
+    "bachelor": "Earned a solid foundation in computer science with coursework in algorithms, data structures, and software engineering.",
+    "finalInternshipSNDP": "End-of-studies project focused on software development and system integration at SNDP (AGIL).",
+    "immersionMinistry": "Completed a company immersion internship observing IT operations at the Ministry of Planning and Economy.",
+    "engineeringInternshipZitouna": "Completed an engineering internship focused on backend and microservices architecture at Banque Zitouna.",
+    "finalInternshipZitouna": "Final engineering project involving application design and implementation at Banque Zitouna.",
+    "espritDescription": "Engineering program focused on full stack development, agile methodologies, project management, and building robust software solutions.",
+    "highSchoolDesc": "Obtained the baccalaureate in Mathematics in 2016."
   }
 }

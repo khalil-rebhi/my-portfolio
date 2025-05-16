@@ -15,7 +15,7 @@ export default function Skills() {
         🚀 {t("skills")}
       </h2>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={6}
         spaceBetween={30}
         className="mySwiper"
         loop={true}

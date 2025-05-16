@@ -9,5 +9,27 @@
   "About": {
     "title": "DÉVELOPPEUR FULL STACK",
     "description": "Ingénieur en informatique spécialisé en développement full stack, je conçois des applications web modernes et performantes en combinant React, Angular, Next.js, Spring Boot et Node.js.\nPassionné par la technologie, je transforme les idées en solutions robustes, accessibles et évolutives."
+  },
+  "Formation": {
+    "title": "Formation et Expérience Professionnelle",
+    "bachelorDegree": "Licence Fondamentale en Informatique",
+    "engineeringInternship": "Stage Ingénieur",
+    "finalInternship": "Stage de Fin d'Études",
+    "immersionInternship": "Stage d’Immersion",
+    "engineerDegree": "Diplôme d'Ingénieur",
+    "highSchoolDiploma": "Baccalauréat",
+    "fst": "Faculté des Sciences de Tunis",
+    "sntp": "Société Nationale de Distribution de Pétrole (SNDP) - AGIL",
+    "ministry": "Ministère de la Planification et de l'Économie",
+    "zitounaBank": "Banque Zitouna",
+    "esprit": "ESPRIT - École Supérieure Privée d'Ingénierie et de Technologie",
+    "highSchool": "Lycée Khmaies El Hajri - Jendouba",
+    "bachelor": "Solide formation en informatique avec des cours sur les algorithmes, les structures de données et le développement logiciel.",
+    "finalInternshipSNDP": "Projet de fin d’études axé sur le développement logiciel et l’intégration de systèmes à la SNDP (AGIL).",
+    "immersionMinistry": "Stage d'immersion en entreprise au sein du Ministère de la Planification et de l'Économie.",
+    "engineeringInternshipZitouna": "Stage ingénieur axé sur le backend et l’architecture microservices à la Banque Zitouna.",
+    "finalInternshipZitouna": "Projet final d’ingénieur portant sur la conception et l’implémentation d’applications à la Banque Zitouna.",
+    "highSchoolDesc": "Obtention du baccalauréat en Mathématiques en 2016.",
+    "espritDescription": "Formation d'ingénieur avec une spécialisation en développement full stack, méthodologies agiles, gestion de projet, et développement de solutions logicielles robustes."
   }
 }
