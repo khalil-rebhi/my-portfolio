@@ -40,13 +40,11 @@ const Navbar = () => {
             <Name locale={locale} />
         )}
 
-        {/* Desktop */}
         <div className={`hidden md:flex items-center w-full ${scrolled ? 'justify-between' : 'justify-center'}`}>
           {navLinks(false)}
           <LanguageSwitcher locale={locale} locales={locales} />
         </div>
 
-        {/* Mobile hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-2xl focus:outline-none"
@@ -55,7 +53,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden mt-3 flex flex-col items-center gap-3 text-sm font-medium bg-black px-4 py-2 rounded">
           {navLinks(true)}
