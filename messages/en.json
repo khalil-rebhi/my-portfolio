@@ -10,8 +10,13 @@
     "title": "FULL STACK DEVELOPER",
     "description": "Full stack software engineer building modern, high-performance web applications with React, Angular, Next.js, Spring Boot, and Node.js. Passionate about tech, I turn ideas into robust, accessible, and scalable solutions."
   },
+  "Skills": {
+    "title": "Skills",
+    "subtitle": "A quick overview of the tools and technologies I work with."
+  },
   "Formation": {
     "title": "Education and Professional Experience",
+    "subtitle": "My academic background and hands-on professional experiences.",
     "bachelorDegree": "Bachelor’s Degree in Computer Science",
     "engineeringInternship": "Engineering Internship",
     "finalInternship": "Final Internship",
@@ -31,5 +36,9 @@
     "finalInternshipZitouna": "Final engineering project involving application design and implementation at Banque Zitouna.",
     "espritDescription": "Engineering program focused on full stack development, agile methodologies, project management, and building robust software solutions.",
     "highSchoolDesc": "Obtained the baccalaureate in Mathematics in 2016."
+  },
+  "Contact": {
+    "title": "Let's Connect",
+    "subtitle": "Interested in working together, hiring me, or just want to say hello? Feel free to reach out!"
   }
 }

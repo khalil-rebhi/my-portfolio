@@ -7,6 +7,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { formations } from "./formation/FormationData";
+import { motion } from "framer-motion";
 
 export default function Formation() {
   const t = useTranslations("Formation");
@@ -15,9 +16,23 @@ export default function Formation() {
 
   return (
     <section id="formation" className="py-16 text-center">
-      <h2 className="text-3xl font-bold mb-10 text-tertiary-glow">
-        🎓 {t("title")}
-      </h2>
+      <motion.h2
+        className="text-3xl font-bold mb-4 text-tertiary"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        📬 {t("title")}
+      </motion.h2>
+
+      <motion.p
+        className="text-tertiary-glow max-w-xl mx-auto mb-10"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        {t("subtitle")}
+      </motion.p>
       <VerticalTimeline lineColor="var(--secondary)">
         {formations.map((formation) => (
           <VerticalTimelineElement

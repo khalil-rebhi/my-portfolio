@@ -6,14 +6,29 @@ import { skills } from "./skills/skillsData";
 import "swiper/css";
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
+import { motion } from "framer-motion";
 
 export default function Skills() {
-  const t = useTranslations("Navbar");
+  const t = useTranslations("Skills");
   return (
     <section id="skills" className="py-16 px-6 text-center">
-      <h2 className="text-3xl font-bold mb-10 text-tertiary-glow">
-        🚀 {t("skills")}
-      </h2>
+      <motion.h2
+        className="text-3xl font-bold mb-4 text-tertiary"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        📬 {t("title")}
+      </motion.h2>
+
+      <motion.p
+        className="text-tertiary-glow max-w-xl mx-auto mb-10"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        {t("subtitle")}
+      </motion.p>
       <Swiper
         slidesPerView={6}
         spaceBetween={30}

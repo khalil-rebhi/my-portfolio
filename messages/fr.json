@@ -10,8 +10,13 @@
     "title": "DÉVELOPPEUR FULL STACK",
     "description": "Ingénieur en informatique spécialisé en développement full stack, je conçois des applications web modernes et performantes en combinant React, Angular, Next.js, Spring Boot et Node.js.\nPassionné par la technologie, je transforme les idées en solutions robustes, accessibles et évolutives."
   },
+  "Skills": {
+    "title": "Skills",
+    "subtitle": "Un aperçu rapide des outils et technologies que j'utilise."
+  },
   "Formation": {
     "title": "Formation et Expérience Professionnelle",
+    "subtitle":"Mon parcours académique et mes expériences professionnelles concrètes.",
     "bachelorDegree": "Licence Fondamentale en Informatique",
     "engineeringInternship": "Stage Ingénieur",
     "finalInternship": "Stage de Fin d'Études",
@@ -31,5 +36,9 @@
     "finalInternshipZitouna": "Projet final d’ingénieur portant sur la conception et l’implémentation d’applications à la Banque Zitouna.",
     "highSchoolDesc": "Obtention du baccalauréat en Mathématiques en 2016.",
     "espritDescription": "Formation d'ingénieur avec une spécialisation en développement full stack, méthodologies agiles, gestion de projet, et développement de solutions logicielles robustes."
+  },
+  "Contact": {
+    "title": "Entrons en contact",
+    "subtitle": "Envie de collaborer, me recruter ou simplement dire bonjour ? N'hésitez pas à me contacter !"
   }
 }
