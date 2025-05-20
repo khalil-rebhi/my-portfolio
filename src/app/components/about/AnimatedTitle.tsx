@@ -7,9 +7,16 @@ export default function AnimatedTitle() {
   const t = useTranslations('About');
   const text = t('title');
   const [displayed, setDisplayed] = useState("");
+  const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
-    let i = 0;
+    setHasMounted(true);
+  }, []);
+
+  useEffect(() => {    
+    if (!hasMounted || !text) return;
+
+    let i = -1;
     const type = () => {
       if (i < text.length) {
         setDisplayed((prev) => prev + text.charAt(i));
@@ -21,7 +28,7 @@ export default function AnimatedTitle() {
     return () => {
       i = text.length;
     };
-  }, [text]);
+  }, [text, hasMounted]);
 
   return (
     <h2 className="text-3xl md:text-4xl font-heading font-bold text-tertiary-glow mb-4 text-center md:text-left whitespace-pre">
