@@ -31,7 +31,7 @@ export default function AnimatedTitle() {
   }, [text, hasMounted]);
 
   return (
-    <h2 className="text-3xl md:text-4xl font-heading font-bold text-tertiary-glow mb-4 text-center md:text-left whitespace-pre">
+    <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary-glow mb-4 text-center md:text-left whitespace-pre">
       {displayed}
     </h2>
   );

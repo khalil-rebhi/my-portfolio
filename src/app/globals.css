@@ -37,6 +37,9 @@
   --color-tertiary-hover: var(--tertiary-hover);
   --color-tertiary-glow: var(--tertiary-glow);
   --color-tertiary-background: rgba(80, 200, 120, 0.2);
+  --color-facebook : #1877F2;
+  --color-github: #181717;
+  --color-linkedin: #0A66C2;
 }
 
 body {

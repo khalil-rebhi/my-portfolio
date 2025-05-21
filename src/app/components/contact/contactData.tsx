@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 
 export const contactItems = [
@@ -25,5 +25,13 @@ export const contactItems = [
         label: "GitHub",
         value: "github.com/khalil-rebhi",
         link: "https://github.com/khalil-rebhi",
+    },
+    {
+      id: 4,
+      icon: <FaWhatsapp />,
+      iconColor: "#25D366",
+      label: "WhatsApp",
+      value: "+216 52 907 048  ",
+      link: "https://wa.me/21652907048", 
     },
 ];

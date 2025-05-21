@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-16 px-6 text-center">
       <motion.h2
-        className="text-3xl font-bold mb-4 text-tertiary"
+        className="text-3xl font-bold mb-4 text-secondary"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -21,7 +21,7 @@ export default function Contact() {
       </motion.h2>
 
       <motion.p
-        className="text-tertiary-glow max-w-xl mx-auto mb-10"
+        className="text-secondary max-w-xl mx-auto mb-10"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
