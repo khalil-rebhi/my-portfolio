@@ -15,7 +15,7 @@ export default function Formation() {
 
 
   return (
-    <section id="formation" className="py-16 text-center">
+    <section id="education" className="py-16 text-center">
       <motion.h2
         className="text-3xl font-bold mb-4 text-secondary"
         initial={{ opacity: 0, y: 40 }}
