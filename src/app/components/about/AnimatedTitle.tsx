@@ -21,7 +21,7 @@ export default function AnimatedTitle() {
       if (i < text.length) {
         setDisplayed((prev) => prev + text.charAt(i));
         i++;
-        setTimeout(type, 70);
+        setTimeout(type, 700);
       }
     };
     type();
