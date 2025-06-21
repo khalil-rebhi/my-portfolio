@@ -14,7 +14,12 @@ export default function CustomLink({
   const scroll = (id: string) => {
     const dest = document.getElementById(id);
     if (dest) {
-      dest.scrollIntoView({ behavior: "smooth" });
+      const offset = -60;
+      const elementPosition = dest.getBoundingClientRect().top +  window.pageYOffset;
+      window.scrollTo({
+        top: elementPosition + offset,
+        behavior: 'smooth'
+      })
     }
   };
 

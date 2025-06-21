@@ -27,7 +27,6 @@ export default function LanguageSwitcher({
     const newPath = `/${newLocale}${pathname.replace(/^\/[a-z]{2}/, "")}`;
     router.push(newPath, { scroll: false });
     setOpen(false);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -39,6 +38,7 @@ export default function LanguageSwitcher({
         <Flag
           code={localeMeta[locale].countryCode}
           style={{ width: "20px", height: "15px" }}
+          alt={localeMeta[locale].label}
         />
         <span>{localeMeta[locale].label}</span>
         <svg className="w-3 h-3 ml-1" viewBox="0 0 20 20" fill="currentColor">
@@ -58,6 +58,7 @@ export default function LanguageSwitcher({
             >
               <Flag
                 code={localeMeta[loc].countryCode}
+                alt={localeMeta[loc].label}
                 style={{ width: "20px", height: "15px" }}
               />
               <span>{localeMeta[loc].label}</span>
